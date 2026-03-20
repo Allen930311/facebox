@@ -21,5 +21,7 @@ diary/
 outputs/
 models/
 notebooks/*_private.ipynb
+notebooks/sd_webui_colab.ipynb
+2026-03-05_IG_Management/
 facebox/data/
 AGENT_CONTEXT.md
