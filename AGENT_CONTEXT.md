@@ -1,6 +1,6 @@
 # 專案上下文 (Agent Context)：FaceBox
 
-> **最後更新時間**：2026-03-20 14:31
+> **最後更新時間**：2026-03-20 15:47
 > **自動生成**：由 `prepare_context.py` 產生，供 AI Agent 快速掌握專案全局
 
 ---
@@ -32,10 +32,12 @@ FaceBox/
 │   │   ├── requirements.txt
 │   │   ├── routes
 │   │   └── services
-│   └── data
-│       ├── lora_models
-│       ├── outputs
-│       └── profiles
+│   ├── data
+│   │   ├── facebox.json
+│   │   ├── lora_models
+│   │   ├── outputs
+│   │   └── profiles
+│   └── startup.log
 ├── facebox-mcp
 │   ├── server.py
 │   └── start-backend.ps1
@@ -50,8 +52,7 @@ FaceBox/
 _(自動提取自最近日記 2026-03-20)_
 
 ### 🚧 待辦事項
-- [x] 以調降後的參數重新執行 LoRA 訓練。
-- [ ] 訓練成功後下載 LoRA 模型，整合至本地 FaceBox MCP 生成流程。
-- [ ] 評估是否需要針對 A100/L4 GPU 建立差異化設定檔。
-- [ ] 持續維護 GitHub 上的 README 文件，同步 Colab 筆記本的變更。
+- [ ] 測試更多 prompt 風格
+- [ ] 將修復後的 notebook commit 到 repo
+- [ ] 考慮把 Colab 相容性修復整合成一個獨立的 setup cell
 

@@ -20,3 +20,6 @@ Desktop.ini
 diary/
 outputs/
 models/
+notebooks/*_private.ipynb
+facebox/data/
+AGENT_CONTEXT.md
